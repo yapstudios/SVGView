@@ -11,13 +11,13 @@ let package = Package(
     ],
     products: [
     	.library(
-    		name: "SVGView", 
-    		targets: ["SVGView"]
+    		name: "SVGViewKit",
+    		targets: ["SVGViewKit"]
     	)
     ],
     targets: [
     	.target(
-    		name: "SVGView",
+    		name: "SVGViewKit",
             path: "Source",
             exclude: ["Info.plist"]
         )
